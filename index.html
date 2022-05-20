@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is a solution to the [Interactive rating component challenge on Frontend Mentor]
+            (https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
+            Frontend Mentor challenges help you improve your coding skills by building realistic projects.-->
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="images/icon-star.svg" rel="icon">
+        <title>Review Us!</title>
+    </head>
+    <body>
+        <section class="container">
+            <div class="rating">
+                <div class="star">
+                    <img src="images/icon-star.svg">
+                </div>
+                <div class="content">
+                    <div class="question">
+                        <h1>How did we do?</h1>
+                        <p>
+                            Please let us know how we did with your support
+                            request. All feedback is appreciated to help us 
+                            improve our offering!
+                        </p>
+                    </div>
+                    <div class="evaluation">
+                        <p class="btn" data-id="1">1</p>
+                        <p class="btn" data-id="2">2</p>
+                        <p class="btn" data-id="3">3</p>
+                        <p class="btn" data-id="4">4</p>
+                        <p class="btn" data-id="5">5</p>
+                    </div>
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="result hidden">
+                <img src="images/illustration-thank-you.svg">
+                <p class="selected"></p>
+                <h1>Thank you!</h1>
+                <p class="text">
+                    We appreciate you taking the time to give a rating.
+                    If you ever need more support, don't hesitate to
+                    get in touch!
+                </p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
